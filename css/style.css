@@ -1,0 +1,46 @@
+.navbar{
+    /* border-bottom: 5px solid rgb(0, 94, 255); */
+    box-shadow: 0 2px 7px rgb(0, 94, 255);
+}
+
+
+header{
+    min-height: 100vh;
+    /* background:linear-gradient(rgba(255, 166, 0, 0.3) , rgba(255, 166, 0, 0.3)) , url(../images/head_bg.jpg); */
+    background: url(../images/back2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.header-text{
+    text-align: center;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+#about h5{
+    letter-spacing: 5px;
+}
+#about img{
+    min-height: 100%;
+}
+
+
+.bg-turquoise {
+    background-color: rgb(32, 151, 255); /* Turquoise color */
+}
+
+.bg-dark-turquoise {
+    background-color: rgb(243, 13, 13); /* Dark turquoise color */
+}
+
+
+.btn-turquoise {
+    background-color: rgb(32, 151, 255); /* Turquoise background color */
+    color: #FFFFFF; /* White text color */
+}
+
+.btn-turquoise:hover {
+    background-color: rgb(32, 151, 255); /* Darker shade of turquoise on hover */
+}
